@@ -15,7 +15,7 @@ metadata:
   name: hello-svc
 spec:
   selector:
-    app: hello-test
+    app: hello
   ports:
     - name: http
       protocol: TCP
