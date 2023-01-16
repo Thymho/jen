@@ -5,7 +5,7 @@ metadata:
   labels:
     app: hello
 spec:
-  container:
+  containers:
     - name: hello-container
       image: rapa.iptime.org:5000/nginx:latest
 ---
